@@ -20,4 +20,4 @@ Flask Modules Used ith this project are:
 + flask_wtf 
 + werkzeug.security 
 
-This is the *[GitRepo](https://github.com/fritzdale/Hackathon2)*.
+This is the *[GitRepo](https://github.com/fritzdale/hackathon-2/tree/Master)*.
