@@ -1,0 +1,110 @@
+
+
+/*.starter-template {*/
+/*  padding: 40px 15px;*/
+/*  text-align: center;*/
+
+/*}*/
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.h1, .h2, h1, h2 {
+    margin-top: 20px;
+    margin-bottom: 267px;
+}
+
+
+
+
+/* Style the button used to pause/play the video */
+/*#myBtn {*/
+/*    width: 99px;*/
+/*    font-size: 18px;*/
+/*    padding: 10px;*/
+/*    color: black;*/
+/*    cursor: pointer;*/
+/*    border-radius: 20px;*/
+/*    border: 2px ;*/
+/*    text-align: center;*/
+/*    letter-spacing: 2px;*/
+
+/*}*/
+
+/*.button.block {*/
+/*    display: block;*/
+/*    width: 200px;*/
+/*}*/
+
+/*.margin-auto {*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*#myBtn:hover {*/
+/*  color: black;*/
+/*  border-radius: 25px;*/
+/*  border: 2px solid #73AD21;*/
+/*  padding: 10px;*/
+/*  width: 100px;*/
+/*  !*height: 50px;*!*/
+/*  height: 10em;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center*/
+/*}*/
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
