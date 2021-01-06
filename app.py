@@ -54,19 +54,8 @@ class RegisterForm(FlaskForm):
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
-    text_content = None
-    svg = None
-    if request.method == 'POST':
-        text_content = request.form['text_content']
-
-        # Generate QR code
-        url = pyqrcode.create(text_content)
-
-        svg = io.BytesIO()
-        url.svg(svg, scale = 6)
-
-    svg_content = svg.getvalue().decode("utf-8") if svg else None
-    return render_template('index.html', text_content=text_content, svg_content=svg_content)
+    
+    return render_template('index.html', text_content=text_content)
 
 @app.route('/2', methods=['POST', 'GET'])
 @login_required
